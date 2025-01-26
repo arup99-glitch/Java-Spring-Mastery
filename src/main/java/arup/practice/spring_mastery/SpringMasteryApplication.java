@@ -1,5 +1,6 @@
 package arup.practice.spring_mastery;
 
+import arup.practice.spring_mastery.oop.simpleTask;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,6 +11,14 @@ public class SpringMasteryApplication {
 
 		SpringApplication.run(SpringMasteryApplication.class, args);
 		int a = 9;
+
+		simpleTask obj = new simpleTask();
+
+		obj.a=1;
+		obj.b=2;
+
+		obj.sum();
+		obj.sub();
 
 	}
 

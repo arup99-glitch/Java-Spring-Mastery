@@ -11,18 +11,18 @@ import org.springframework.web.bind.annotation.RestController;
 public class LogController {
 
     // creating a logger
-    Logger logger
-            = LoggerFactory.getLogger(LogController.class);
-
-    @RequestMapping("/log") public String log()
-    {
-        // Logging various log level messages
-        logger.trace("Log level: TRACE");
-        logger.info("Log level: INFO");
-        logger.debug("Log level: DEBUG");
-        logger.error("Log level: ERROR");
-        logger.warn("Log level: WARN");
-
-        return "Hey! You can check the output in the logs";
-    }
+//    Logger logger
+//            = LoggerFactory.getLogger(LogController.class);
+//
+//    @RequestMapping("/log") public String log()
+//    {
+//        // Logging various log level messages
+//        logger.trace("Log level: TRACE");
+//        logger.info("Log level: INFO");
+//        logger.debug("Log level: DEBUG");
+//        logger.error("Log level: ERROR");
+//        logger.warn("Log level: WARN");
+//
+//        return "Hey! You can check the output in the logs";
+//    }
 }
